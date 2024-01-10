@@ -1,0 +1,5 @@
+"0","# Add a ridge plot here"
+"0","ggplot(data,aes(x=lifeExp,y=fct_rev(as.factor(year))),fill=..x..)+"
+"0","  geom_density_ridges_gradient(quantile_lines = TRUE, quantiles = 2) +"
+"0","  scale_fill_viridis_c(option = ""plasma"")+"
+"0","  labs(x = ""Esperence de vie"", y = NULL, color = ""Temp"")"

@@ -1,0 +1,4 @@
+"0","# Créer un jeu de données filtré"
+"0","data_1997<- data %>%"
+"0","  filter(year==1997)"
+"0",""

@@ -1,0 +1,8 @@
+"0","# Ajoutez un histogramme ici. Vous voudrez probablement remplir et facetter."
+"0","# Vous devrez également ajouter scale_x_log10()"
+"0",""
+"0","ggplot(data = data_1997,mapping = aes(x=gdpPercap,fill=continent))+"
+"0","  geom_histogram( color = ""white"")+"
+"0","  scale_x_log10()+"
+"0","  guides(fill = ""none"") +"
+"0","  facet_wrap(vars(continent))"

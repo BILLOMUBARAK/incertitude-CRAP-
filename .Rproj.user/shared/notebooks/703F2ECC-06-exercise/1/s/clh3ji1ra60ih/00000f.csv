@@ -1,0 +1,4 @@
+"0","library(tidyverse)  # For ggplot, dplyr, and friends"
+"0","library(gapminder)  # For health/wealth data"
+"0","library(ggridges)   # For ridge plots"
+"0","library(gghalves)   # For half geoms"
